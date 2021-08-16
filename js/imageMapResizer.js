@@ -4,7 +4,7 @@
  *  License: MIT
  */
 
-;(function() {
+; (function () {
   'use strict'
 
   function scaleImageMap() {
@@ -154,10 +154,14 @@
   }
 
   if ('jQuery' in window) {
-    window.jQuery.fn.imageMapResize = function $imageMapResizeF() {
-      return this.filter('map')
-        .each(scaleImageMap)
-        .end()
+    var jQuery = window[Object.keys(window).filter(key => /jQuery/.test(key))];
+
+    if (jQuery) {
+      jQuery.fn.imageMapResize = function $imageMapResizeF() {
+        return this.filter('map')
+          .each(scaleImageMap)
+          .end()
+      }
     }
   }
 })()
