@@ -1,18 +1,18 @@
 {
   "name": "image-map-resizer",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidjbradshaw/image-map-resizer.git"
+    "url": "https://github.com/spstrikwerda-achmea/image-map-resizer.git"
   },
   "maintainers": [
     {
-      "name": "David J. Bradshaw",
-      "email": "dave@bradshaw.net"
+      "name": "Simon-Paul Strikwerda",
+      "email": "sp_strikwerda@hotmail.com"
     }
   ],
   "description": "Make the HTML image map responsive, so the map scales with the image",
-  "github": "https://github.com/davidjbradshaw/image-map-resizer",
+  "github": "https://github.com/spstrikwerda-achmea/image-map-resizer",
   "main": "js/imageMapResizer.min.js",
   "devDependencies": {
     "grunt": "1.0.3",
