@@ -4,6 +4,10 @@
 [![Blazing](https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=flat)](https://twitter.com/acdlite/status/974390255393505280)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/davidjbradshaw)
 
+*Note: this package is a fork of image-map-resizer by David J. Bradshaw (https://www.npmjs.com/package/image-map-resizer)*
+
+---
+
 *This is a simple library that makes HTML Image Maps responsive, so that they automagically stay scaled to the size of the image they are attached to. It detects the window being resized and updates the co-ordinates of the image map accordingly.*
 
 *This library can be used with or without jQuery.*
